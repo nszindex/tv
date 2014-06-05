@@ -131,7 +131,7 @@ a:hover {
   border-bottom: 0 !important;
 }
 .b-link_pseudo .b-link__inner {
-  border-bottom: 1px dotted;
+  border-bottom: 10px dotted;
 }
 .g-green {
   color: #1abc9c !important;

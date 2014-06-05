@@ -12,16 +12,17 @@ var MainJsClass = function () {
 			$('.form__add-on').click(function(){
 				$(this).prevAll('.datepicker').datepicker('show');
 			});
+            $('.form__add-on').click(function(){
+                $(this).prevAll('.datepicker').datepicker('show');
+            });
 			// Hide datepicker on scroll and resize
 
-			var dtPckr = $('.custom-datepicker');
+			/*var dtPckr = $('.custom-datepicker');
 			$(window).scroll(function() {
 				dtPckr.datepicker('hide');
-			});
+			});*/
 
-			$(".custom-datepicker").click(function(){
-				$(this).css('color','#34495e')
-			});
+
 		};
 		if($('.visible-datepicker').length){
 			var datepicker = $(".visible-datepicker").datepicker();
